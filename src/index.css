@@ -43,3 +43,23 @@ header {
   text-decoration: line-through;
   color: #9e4942;
 }
+
+.filter-btn {
+  margin: 3px;
+  padding: 3px 7px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+  border-color: rgba(175, 47, 47, 0.2);
+}
+
+.footer {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
